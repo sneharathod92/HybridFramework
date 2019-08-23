@@ -1,0 +1,9 @@
+com\clc\hybrid\utility\XLSUtils.class
+com\clc\hybrid\pageobject\AddCustomerPage.class
+com\clc\hybrid\testcases\TC_Login_01.class
+com\clc\hybrid\testcases\BaseClass.class
+com\clc\hybrid\testcases\TC_loginDDT_002.class
+com\clc\hybrid\utility\Reporting.class
+com\clc\hybrid\utility\ReadConfig.class
+com\clc\hybrid\pageobject\LoginPage.class
+com\clc\hybrid\testcases\TC_AddCustomerTest_003.class

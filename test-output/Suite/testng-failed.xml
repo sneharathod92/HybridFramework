@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.clc.hybrid.utility.Reporting"/>
+  </listeners>
+  <test name="chromeTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.clc.hybrid.testcases.TC_Login_01"/>
+      <class name="com.clc.hybrid.testcases.TC_loginDDT_002"/>
+      <class name="com.clc.hybrid.testcases.TC_AddCustomerTest_003"/>
+    </classes>
+  </test> <!-- chromeTest -->
+  <test name="chromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.clc.hybrid.testcases.TC_Login_01">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.clc.hybrid.testcases.TC_Login_01 -->
+      <class name="com.clc.hybrid.testcases.TC_AddCustomerTest_003">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.clc.hybrid.testcases.TC_AddCustomerTest_003 -->
+      <class name="com.clc.hybrid.testcases.TC_loginDDT_002">
+        <methods>
+          <include name="loginDDT" invocation-numbers="1 2 3"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.clc.hybrid.testcases.TC_loginDDT_002 -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

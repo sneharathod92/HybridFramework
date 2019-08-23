@@ -1,0 +1,26 @@
+url is opened
+entered username
+entered passowrd
+login test passed
+url is opened
+entered username
+entered passowrd
+login test passed
+url is opened
+entered username
+entered passowrd
+login test passed
+url is opened
+entered username
+entered passowrd
+login test passed
+url is opened
+entered username
+entered passowrd
+url is opened
+entered username
+entered passowrd
+login test passed
+entered username
+entered passowrd
+login test passed
